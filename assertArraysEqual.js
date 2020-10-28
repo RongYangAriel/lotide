@@ -8,9 +8,10 @@ const eqArrays = (arr1, arr2) => {
   console.log(`Assertion Passed: ${arr1} === ${arr2}`);
 };
 
-const asserArrayEqual = (arr1, arr2) => {
+const assertArrayEqual = (arr1, arr2) => {
   eqArrays(arr1, arr2);
 };
 
-asserArrayEqual([1, 2, 3], [1, 2, 3]);
-asserArrayEqual([1, '2', 3], [1, 2, 3]);
+assertArrayEqual([1, 2, 3], [1, 2, 3]);
+assertArrayEqual([1, '2', 3], [1, 2, 3]);
+assertArrayEqual([], []);

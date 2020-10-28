@@ -1,8 +1,6 @@
-const happy = String.fromCodePoint(0xF600);
-
 const assertEqual = (actual, expected) => {
   if (actual === expected) {
-    console.log(`${happy} Assertion Passed: ${actual} === ${expected}`);
+    console.log(`Assertion Passed: ${actual} === ${expected}`);
   } else {
     console.log(`Assertion Failed: ${actual} !== ${expected}`);
   }

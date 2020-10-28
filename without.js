@@ -16,7 +16,7 @@ const without = (source, itemsToRemove) => {
     }
   }
   return newArr;
-}
+};
 
 console.log(without([1, 2, 3, 4], [4]));
 console.log(without(['a', 'b', 'c'], ['a']));
